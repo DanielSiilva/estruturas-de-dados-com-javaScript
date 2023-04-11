@@ -1,10 +1,10 @@
-const datas = [2, 3,4 ,6, 8]
-const datas02 = [9, 10, 22, 34, 56]
+const temperatureAverage1 = [2, 3,4 ,6, 8]
+const temperatureAverage2 = [9, 10, 22, 34, 56]
 
-const datasT = [datas, datas02]
+const totalAverage = [temperatureAverage1, temperatureAverage2]
 
-for(let i = 0; i < datasT.length; i++){
-    for(let j = 0; j < datasT[i].length; j++){
-        console.log(datasT[i][j])
+for(let i = 0; i < totalAverage.length; i++){
+    for(let j = 0; j < totalAverage[i].length; j++){
+        console.log(totalAverage[i][j])
     }
 } 
